@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: hsl(133, 91%, 26%); 
+}
+
+main {
+
+  margin: 20px;
+  padding: 20px; 
+  background-color: rgb(83, 131, 12); 
+  border-radius: 16px; 
+ 
+}
+
+h2 {
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+  margin-bottom: 20px;
+}
+
+.navBar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 16px; 
+ 
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.navBar a:hover {
+  background-color: hsl(0, 0%, 10%);
+   
+}
+
+.navBar li {
+  float: left;
+}
+
